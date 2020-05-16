@@ -10,7 +10,7 @@ colores.push('rosa')
 console.log(colores);
 
 colores[7] = "negro"
-colores.push("naranja")
+colores.push("naranja") //Agregar un elemento al final del arreglo
 console.log(colores);
 
 colores.pop() //Borra el ÚLTIMO elemento del arreglo
@@ -37,4 +37,3 @@ var persona = {
 console.log(persona);
 console.log(persona.telefono);
 console.log(persona.juegos[1]);
-

@@ -22,3 +22,11 @@ const multiplicacion = (x, y) => {
 }
 
 console.log(multiplicacion(5,10));
+
+//Kata 9
+function hola (a) {
+    let r = Math.max(...a);
+    console.log(r);
+}
+
+hola ([1, 2, 7, 25, 57, 28])

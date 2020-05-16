@@ -21,3 +21,10 @@ for (x=0; x < animales.length; x++){
 
 let palabra = "Hola"
 console.log(palabra.length);
+
+//Kata 6
+let pares = []
+for ( i = 0; i <= 100; i += 2 ) {
+    pares.push(i);
+}
+console.log(pares);
