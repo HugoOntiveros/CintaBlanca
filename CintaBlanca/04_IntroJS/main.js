@@ -35,3 +35,4 @@ console.log(nombreCompleto);
 
 var dialogo = prompt('Qué dice')
 console.log(dialogo);
+
