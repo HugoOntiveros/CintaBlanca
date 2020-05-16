@@ -1,0 +1,11 @@
+.container {
+    border: 1px cadetblue solid;
+    height: 640px;
+    display: flex;
+}
+
+.hijo {
+    border: 1px red solid;
+    height: 30%;
+    width: 40%;
+}

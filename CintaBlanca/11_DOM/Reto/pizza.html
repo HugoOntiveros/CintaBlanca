@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./pizza.css">
+
+    <title>Pizza</title>
+</head>
+
+<body>
+    <h1>Ricardo's</h1>
+
+    <div class="input-group mb-3">
+        <!-- <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span> -->
+    </div>
+    <input id="N" type="text" class="form-control" placeholder="Nombre" aria-label="Username"
+        aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3">
+        <!-- <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span> -->
+    </div>
+    <input id="T" type="text" class="form-control" placeholder="Teléfono" aria-label="Username"
+        aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3">
+        <!-- <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span> -->
+    </div>
+    <input id="P" type="text" class="form-control" placeholder="¿Quiere piña en su pizza? S o N" aria-label="Username"
+        aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3">
+        <!-- <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span> -->
+    </div>
+    <input id="D" type="text" class="form-control" placeholder="Dirección" aria-label="Username"
+        aria-describedby="basic-addon1">
+    </div>
+
+    <div class="d-flex justify-content-center my-5">
+        <button id="boton" type="button" class="btn btn-warning ">Ordenar</button>
+    </div>
+    
+    <div id="Card" class="card border-warning mb-3 mx-auto d-none" style="max-width: 18rem;">
+        <div class="card-header">Orden</div>
+        <div class="card-body text-warning">
+            <h5 id="NN" class="card-title">Nombre</h5>
+            <p id="TN" class="card-text">Telefono</p>
+            <p id="DN" class="card-text">Dirección</p>
+            <img id="PN" class="d-none" src="./assets/Asco.jpg" alt="Piña o sin piña">
+            <img id="PS" class="d-none" src="./assets/Gusta.png" alt="Piña o sin piña">
+            <p id="PE" class="card-text">Error</p>
+        </div>
+    </div>
+
+
+
+
+    <script src="./main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

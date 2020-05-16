@@ -1,0 +1,22 @@
+* {
+    background-color: orange;
+}
+
+h1{
+    border: 1px purple solid;
+    color: rebeccapurple;
+    width: 100px;
+    display: inline-block;
+}
+
+h2{
+    border: 1px green solid;
+}
+
+p{
+    border: 1px steelblue solid;
+}
+
+a{
+    border: 1px teal solid;
+}

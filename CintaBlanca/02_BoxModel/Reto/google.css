@@ -1,0 +1,59 @@
+/* *{
+    border: 1px black solid;
+}
+
+div{
+    border: 1px black solid;
+} */
+
+.text{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.imagenes{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+.mail{
+    margin-left: 1100px;
+    text-decoration: none;
+    color: black;
+}
+
+.apps{
+    width: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.user{
+    width: 25px;
+    margin-left: 10px;
+}
+
+.gif{
+    margin-left: 425px;
+    margin-top: 45px;
+}
+
+input{
+    margin: 20px 460px;
+    border-radius: 18px;
+    display: block;
+    height: 30px;
+}
+
+.button1{
+    margin-left: 560px;
+    border-radius: 3px;
+    border: none;
+}
+
+.button2{
+    margin-left: 15px;
+    border-radius: 3px;
+    border: none;
+}

@@ -1,0 +1,48 @@
+/* Selector {Propiedades: valor;} */
+* {
+    background-color: orange;  
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.I1{
+    width: 400px;
+    height: auto;
+    margin-left: 450px;
+}
+
+.I2{
+    width: 400px;
+    height: auto;
+    margin-left: 250px;
+
+}
+
+.I3{
+    width: 400px;
+    height: 530px;
+}
+
+ul{
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+}
+
+li{
+    margin-left: 60px;
+    font-weight: 400;
+}
+
+.Icon{
+    width: 50px;
+    height: auto;
+}
+
+.Thumb{
+    color: white;
+    font-size: 50px;
+}
