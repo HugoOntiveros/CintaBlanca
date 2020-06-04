@@ -1,4 +1,5 @@
 const request = require("request");
+// Destructuración de objeto Banda que recibo de ./Banda
 const { Banda } = require("./Banda");
 
 /* const endPoint = "http://www.theaudiodb.com/api/v1/json/1/search.php?s=Hola";
@@ -23,12 +24,17 @@ const buscaBanda = (nombre) => {
                 // console.log(body);
                 // JSON.parse convierte un JSON en string a un JSON funcional
                 const respuesta = JSON.parse(body);
-                const banda = new Banda(
-                    respuesta.artists[0].strArtist,
-                    `${respuesta.artists[0].intFormedYear}-${respuesta.artists[0].intDiedYear}`,
-                    respuesta.artists[0].strWebsite,
-                    respuesta.artists[0].strGenre
-                )
+                /*                 // Instancia de mi clase banda
+                                const banda = new Banda(
+                                    respuesta.artists[0].strArtist,
+                                    `${respuesta.artists[0].intFormedYear}-${respuesta.artists[0].intDiedYear}`,
+                                    respuesta.artists[0].strWebsite,
+                                    respuesta.artists[0].strGenre
+                                )
+                 */                // Creo constantes basadas en los atributos del objeto CON DESTRUCTURACION
+                const { strArtist, intFormedYear, strWebsite, strGenre } = respuesta.artists[0];
+                // Instancia de mi clase banda
+                const banda = new Banda(strArtist, intFormedYear, strWebsite, strGenre);
                 resolve(banda);
             } else {
                 reject(error);
