@@ -59,7 +59,7 @@ const creaAutor = (nombre, apellido, nacionalidad, bio, genero, edad) => {
                 autor }, (err, response, body) => {
             // console.log(err, response.statusCode);
             if (response.statusCode === 201) {
-                resolve(autor);                
+                resolve(body);                
             } else {
                 reject(response);
                 console.log(err);
@@ -72,5 +72,5 @@ const creaAutor = (nombre, apellido, nacionalidad, bio, genero, edad) => {
 
 
 creaAutor("Hugo", "Ontiveros", "MX", "Biografía", "M", 23)
-    .then((autor) => console.log(autor))
+    .then((body) => console.log(body))
     .catch((response) => console.log(`Status code: ${response.statusCode}`))
