@@ -18,9 +18,9 @@ const frequent = (numbers) => {
     }
     console.log(freq);
 
-    const maxFreq = object => {
-        return Object.keys(object).filter(e => {
-            return object[e] == Math.max(...Object.values(object));
+    const maxFreq = (object) => {
+        return Object.keys(object).filter(values => {
+            return object[values] == Math.max(...Object.values(object));
         });
     };
     const maxF = maxFreq(freq);
@@ -35,4 +35,4 @@ const frequent = (numbers) => {
     }
 }
 
-frequent([10, 30, 15, 20, 15, 25, 10, 10, 10, 10, 15, 15])
+frequent([10, 30, 15, 20, 15, 25, 10, 10, 10, 10, 15, 15]);
