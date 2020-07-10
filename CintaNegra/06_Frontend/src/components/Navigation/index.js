@@ -4,14 +4,14 @@ import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } f
 
 const Navigation = (props) => {
   const [collapsed, setCollapsed] = useState(true);
-  const { mascotas } = useContext(AuthContext);
+  const { brand } = useContext(AuthContext);
 
   const toggleNavbar = () => setCollapsed(!collapsed);
 
   return (
     <div>
       <Navbar color="primary" dark>
-        <NavbarBrand href="/" className="mr-auto">{mascotas}</NavbarBrand>
+        <NavbarBrand href="/" className="mr-auto">{brand}</NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>

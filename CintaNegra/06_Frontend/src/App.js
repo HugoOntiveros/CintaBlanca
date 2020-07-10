@@ -1,12 +1,16 @@
 import React from 'react';
 import Navigation from './components/Navigation';
 import AuthContextProvider from './contexts/AuthContext';
+import NavBrand from './components/NavBrand';
 
 function App() {
   return (
     <AuthContextProvider>
-      <Navigation/>
-        <h1 className="container">Hola mundo</h1>
+      <Navigation />
+      <div className="container">
+      <h1>Hello World!</h1>
+      <NavBrand/>
+      </div>
     </AuthContextProvider>
   );
 }
